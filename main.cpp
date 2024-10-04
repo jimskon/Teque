@@ -40,9 +40,9 @@ int main()
             //auto it = teque.begin();
             //cout << "I:" << teque.size()+1 / 2 << endl;
             //advance(it, (teque.size()+1) / 2); // Move iterator to the middle
-            //printf("M: %d ",*middle);
+            printf("M1: %d \n",*middle);
             teque.insert(middle,v);
-            
+            printf("M2: %d \n",*middle);
             
             if (teque.size()%2) 
               ++middle;
