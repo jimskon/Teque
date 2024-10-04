@@ -16,14 +16,7 @@ int main()
     char str[20];
     int v;
     list<int>::iterator middle=teque.begin();
-    teque.push_back(77);
-    display(teque);
-    ++middle;
-    ++middle;
-    teque.push_back(88);
-    display(teque);
-   
-    if (middle == teque.end()) printf("Yeah!");
+
     scanf("%d", &n);
     //cin >> n;
     for (int i=0; i<n; i++) {
