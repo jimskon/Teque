@@ -17,11 +17,11 @@ int main()
         for (auto x:teque) {
             printf(" %d",x);
         }
-        printf("M: %d\n",*middle);
+        printf(" M: %d\n",*middle);
         scanf("%s %d", str, &v);
         //printf("ADD %d, %lu\n",v,teque.size());
         //cin >> c >> v;
-        if (strcmp(str,"push_back")==0) {
+        if (strcmp(str,"push_back")==1) {
             teque.push_back(v);
             if (teque.size()%2) 
                 ++middle;
