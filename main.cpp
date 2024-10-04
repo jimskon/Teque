@@ -19,6 +19,7 @@ int main()
     teque.push_back(77);
     display(teque);
     ++middle;
+    ++middle;
     teque.push_back(88);
     display(teque);
    
