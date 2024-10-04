@@ -44,8 +44,8 @@ int main()
             teque.insert(middle,v);
             
             
-            //if (teque.size()%2) 
-            //    ++middle;
+            if (teque.size()%2) 
+                --middle;
         } else {                        // assume get
             auto it = teque.begin();
             advance(it, v);
