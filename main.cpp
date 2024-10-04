@@ -4,7 +4,7 @@
 using namespace std;
 
 void display(list<int> l) {
-  for (auto x:teque) {
+  for (auto x: l) {
     printf(" %d",x);
   }
 }
