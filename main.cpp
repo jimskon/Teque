@@ -45,7 +45,7 @@ int main()
             printf("M2: %d \n",*middle);
             
             if (teque.size()%2) 
-              ++middle;
+              // nothing
             else
               --middle;
         } else {                        // assume get
