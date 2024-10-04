@@ -2,7 +2,13 @@
 #include <cstring>
 #include <list>
 using namespace std;
- 
+
+void display(list<int> l) {
+  for (auto x:teque) {
+    printf(" %d",x);
+  }
+}
+
 int main()
 {
     int n;
@@ -10,14 +16,17 @@ int main()
     char str[20];
     int v;
     list<int>::iterator middle=teque.begin();
+    teque.push_back(77);
+    display(teque);
+    ++middle;
+    teque.push_back(88);
+    display(teque);
    
     if (middle == teque.end()) printf("Yeah!");
     scanf("%d", &n);
     //cin >> n;
     for (int i=0; i<n; i++) {
-        for (auto x:teque) {
-            printf(" %d",x);
-        }
+        display(teque);
         printf(" S: %lu, M: %d\n",teque.size(),*middle);
         scanf("%s %d", str, &v);
         //printf("ADD %d, %lu\n",v,teque.size());
