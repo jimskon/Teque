@@ -10,7 +10,8 @@ int main()
     char str[20];
     int v;
     list<int>::iterator middle=teque.begin();
-
+   
+    if (middle == teque.end()) printf("Yeah!");
     scanf("%d", &n);
     //cin >> n;
     for (int i=0; i<n; i++) {
