@@ -33,7 +33,7 @@ int main()
             //auto it = teque.begin();
             //cout << "I:" << teque.size()+1 / 2 << endl;
             //advance(it, (teque.size()+1) / 2); // Move iterator to the middle
-            printf("M: %d ",*middle);
+            //printf("M: %d ",*middle);
             teque.insert(middle,v);
             
             
