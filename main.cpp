@@ -20,8 +20,8 @@ int main()
     scanf("%d", &n);
     //cin >> n;
     for (int i=0; i<n; i++) {
-        display(teque);
-        printf(" S: %lu, M: %d\n",teque.size(),*middle);
+        //display(teque);
+        //printf(" S: %lu, M: %d\n",teque.size(),*middle);
         scanf("%s %d", str, &v);
         //printf("ADD %d, %lu\n",v,teque.size());
         //cin >> c >> v;
@@ -40,13 +40,13 @@ int main()
             //auto it = teque.begin();
             //cout << "I:" << teque.size()+1 / 2 << endl;
             //advance(it, (teque.size()+1) / 2); // Move iterator to the middle
-            printf("M1: %d \n",*middle);
+            //printf("M1: %d \n",*middle);
             teque.insert(middle,v);
-            printf("M2: %d \n",*middle);
+            //printf("M2: %d \n",*middle);
             
             if (teque.size()%2==0) 
               --middle;
-            printf("M3: %d \n",*middle);
+            //printf("M3: %d \n",*middle);
         } else {                        // assume get
             auto it = teque.begin();
             advance(it, v);
