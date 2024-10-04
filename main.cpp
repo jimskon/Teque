@@ -23,8 +23,9 @@ int main()
         //cin >> c >> v;
         if (strcmp(str,"push_back")==0) {
             teque.push_back(v);
-            if (teque.size()%2==1) 
+            if (teque.size()%2==1) {
                 ++middle;
+                printf("Adv\n");
         } else if (strcmp(str,"push_front")==0) {
             teque.push_front(v);
             if (teque.size()%2) 
