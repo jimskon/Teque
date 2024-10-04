@@ -17,7 +17,7 @@ int main()
         for (auto x:teque) {
             printf(" %d",x);
         }
-        printf("\n");
+        printf("M: %d\n",*middle);
         scanf("%s %d", str, &v);
         //printf("ADD %d, %lu\n",v,teque.size());
         //cin >> c >> v;
