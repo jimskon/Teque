@@ -23,7 +23,7 @@ int main()
         //cin >> c >> v;
         if (strcmp(str,"push_back")==0) {
             teque.push_back(v);
-            if (teque.size()%2) 
+            if (teque.size()%2==1) 
                 ++middle;
         } else if (strcmp(str,"push_front")==0) {
             teque.push_front(v);
