@@ -45,7 +45,6 @@ int main()
             printf("%d\n",*it);
             //cout << *it << endl;
         }
-        printf("M: %d\n",*middle);
 
     }
 }
