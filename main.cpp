@@ -21,7 +21,7 @@ int main()
         scanf("%s %d", str, &v);
         //printf("ADD %d, %lu\n",v,teque.size());
         //cin >> c >> v;
-        if (strcmp(str,"push_back")==1) {
+        if (strcmp(str,"push_back")==0) {
             teque.push_back(v);
             if (teque.size()%2==1) 
                 ++middle;
