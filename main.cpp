@@ -34,7 +34,7 @@ int main()
             }
         } else if (strcmp(str,"push_front")==0) {
             teque.push_front(v);
-            if (teque.size()%2) 
+            if (teque.size()%2==1) 
                --middle;
         } else if (strcmp(str,"push_middle")==0) {
             //auto it = teque.begin();
