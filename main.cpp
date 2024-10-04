@@ -44,7 +44,7 @@ int main()
             teque.insert(middle,v);
             printf("M2: %d \n",*middle);
             
-            if (teque.size()%2==1) 
+            if (teque.size()%2==0) 
               --middle;
             printf("M3: %d \n",*middle);
         } else {                        // assume get
