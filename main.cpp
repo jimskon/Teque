@@ -15,7 +15,7 @@ int main()
     list<int> teque;
     char str[20];
     int v;
-    list<int>::iterator middle=teque.begin();
+    list<int>::iterator middle=teque.end();
 
     scanf("%d", &n);
     //cin >> n;
