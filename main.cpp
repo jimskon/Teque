@@ -26,6 +26,7 @@ int main()
             if (teque.size()%2==1) {
                 ++middle;
                 printf("Adv\n");
+            }
         } else if (strcmp(str,"push_front")==0) {
             teque.push_front(v);
             if (teque.size()%2) 
