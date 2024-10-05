@@ -45,6 +45,8 @@ int main()
             
             if (teque.size()%2==1) 
               --middle;
+            else
+              --middle;
             //printf("M3: %d \n",*middle);
         } else {                        // assume get
             auto it = teque.begin();
