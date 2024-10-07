@@ -49,8 +49,10 @@ void faststring(char (&str)[20])
 {
   char c='x';
   int i=0;
-  for (; (c!=' '); c=getchar_unlocked())
+  for (; (c!=' '); c=getchar_unlocked()) {
+    printf(" %c",c);
     str[i++]=c;
+  }
   str[i]=0;
 }
 int main()
