@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cstring>
-#include <list>
+#include <deque>
 using namespace std;
 
 void display(deque<int> l) {
