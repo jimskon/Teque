@@ -1,4 +1,4 @@
-que#include <stdio.h>
+#include <stdio.h>
 #include <cstring>
 #include <list>
 using namespace std;
