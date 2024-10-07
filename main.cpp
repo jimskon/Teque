@@ -53,6 +53,8 @@ int main()
     deque<int> teque;
     char str[20];
     int v;
+    deque<int>::iterator middle;
+    middle = dq.end();
 
     //scanf("%d", &n);
     fastscan(n);
@@ -66,10 +68,23 @@ int main()
         //printf("ADD %d, %lu\n",v,teque.size());
         if (strcmp(str,"push_back")==0) {
             teque.push_back(v);
+            if (teque.size() == 1) {
+              middle = teque.begin();  // If only one element, middle is the front
+            } else if (teque.size() % 2 != 0) {
+              ++middle;  // Adjust middle when size becomes odd
+            }
         } else if (strcmp(str,"push_front")==0) {
             teque.push_front(v);
+            if (teque.size() == 1) {
+              middle = teque.begin();  // If only one element, middle is the front
+            } else if (teque.size() % 2 == 0) {
+              --middle;  // Adjust middle when size becomes even
+            }
         } else if (strcmp(str,"push_middle")==0) {
             insert_middle(teque,v);
+            if (teque.size() % 2 == 0) {
+              --middle;  // Adjust middle if size is even after insertion
+            }
         } else if (strcmp(str,"get")==0){                        // assume get
             auto it = teque.begin();
             advance(it, v);
