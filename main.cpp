@@ -50,7 +50,6 @@ void faststring(char (&str)[20])
   char c='x';
   int i=0;
   for (; (c!=' '); c=getchar_unlocked()) {
-    printf(" %c",c);
     str[i++]=c;
   }
   str[i]=0;
@@ -69,6 +68,7 @@ int main()
         display(teque);
         printf(" S: %lu\n",teque.size() );
         faststring(str);
+        printf("str: %s\n",str);
         fastscan(v);
         //scanf("%s %d", str, &v);
         //printf("ADD %d, %lu\n",v,teque.size());
