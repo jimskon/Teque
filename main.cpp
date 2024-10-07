@@ -66,7 +66,7 @@ int main()
         //display(teque);
         //printf(" S: %lu\n",teque.size() );
         faststring(str);
-        fastscan(*v);
+        fastscan(v);
         //scanf("%s %d", str, &v);
         //printf("ADD %d, %lu\n",v,teque.size());
         if (strcmp(str,"push_back")==0) {
