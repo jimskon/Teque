@@ -60,7 +60,7 @@ int main()
     char str[20];
     int v;
 
-    scanf("%d", &n);
+    //scanf("%d", &n);
     fastscan(n);
     for (int i=0; i<n; i++) {
         //display(teque);
