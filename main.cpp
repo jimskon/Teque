@@ -27,7 +27,7 @@ int main()
     for (int i=0; i<n; i++) {
         //display(teque);
         //printf(" S: %lu, M: %d\n",teque.size(),*middle);
-        //scanf("%s %d", str, &v);
+        scanf("%s %d", str, &v);
         //printf("ADD %d, %lu\n",v,teque.size());
         if (strcmp(str,"push_back")==0) {
             teque.push_back(v);
