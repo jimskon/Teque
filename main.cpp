@@ -54,7 +54,7 @@ int main()
     char str[20];
     int v;
     deque<int>::iterator middle;
-    middle = dq.end();
+    middle = teque.end();
 
     //scanf("%d", &n);
     fastscan(n);
