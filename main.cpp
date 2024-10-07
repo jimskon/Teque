@@ -58,10 +58,10 @@ int main()
     fastscan(n);
     printf("Hey %d\n",n);
     for (int i=0; i<n; i++) {
-        display(teque);
-        printf(" S: %lu\n",teque.size());
+        //display(teque);
+        //printf(" S: %lu\n",teque.size());
         faststring(str);
-        printf("str: %s, %zu\n",str,strlen(str));
+        //printf("str: %s, %zu\n",str,strlen(str));
         fastscan(v);
         //scanf("%s %d", str, &v);
         printf("ADD %d, %lu\n",v,teque.size());
