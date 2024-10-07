@@ -45,7 +45,7 @@ void faststring(char (&str)[20])
     c=getchar_unlocked();
     str[i++]=c;
   }
-  str[i]=0;
+  str[i--]=0;
 }
 int main()
 {
