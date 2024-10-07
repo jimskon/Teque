@@ -19,7 +19,7 @@ void fastscan(int &number)
 {
     //variable to indicate sign of input number
     bool negative = false;
-    register int c;
+    int c;
 
     number = 0;
 
