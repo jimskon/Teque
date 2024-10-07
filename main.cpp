@@ -25,14 +25,6 @@ void fastscan(int &number)
 
     // extract current character from buffer
     c = getchar_unlocked();
-    if (c=='-')
-    {
-        // number is negative
-        negative = true;
-
-        // extract the next character from the buffer
-        c = getchar_unlocked();
-    }
 
     // Keep on extracting characters if they are integers
     // i.e ASCII Value lies from '0'(48) to '9' (57)
