@@ -41,7 +41,7 @@ void faststring(char (&str)[20])
 {
   char c='x';
   int i=0;
-  while (c!=' ') {
+  while (c!=' ' || c!='\n' || c!=0) {
     c=getchar_unlocked();
     str[i++]=c;
   }
