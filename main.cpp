@@ -71,10 +71,12 @@ int main()
             teque.push_front(v);
         } else if (strcmp(str,"push_middle")==0) {
             insert_middle(teque,v);
-        } else {                        // assume get
+        } else if (strcmp(str,"get")==0){                        // assume get
             auto it = teque.begin();
             advance(it, v);
             printf("%d\n",*it);
+        } else {
+          printf("Bad input\n");
         }
 
     }
