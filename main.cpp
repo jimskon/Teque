@@ -34,7 +34,7 @@ int main()
         } else if (strcmp(str,"push_front")==0) {
             teque.push_front(v);
         } else if (strcmp(str,"push_middle")==0) {
-            insert_middle(teque,v)
+            insert_middle(teque,v);
         } else {                        // assume get
             auto it = teque.begin();
             advance(it, v);
