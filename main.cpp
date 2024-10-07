@@ -45,10 +45,11 @@ void fastscan(int &number)
         number *= -1;
 }
 
-void faststring(char &str[20])
+void faststring(char str[20])
 {
   char c='x';
-  for (int i=0; (c!=' '); c=getchar_unlocked())
+  int i=0;
+  for (; (c!=' '); c=getchar_unlocked())
     str[i++]=c;
   str[i]=0;
 }
