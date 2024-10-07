@@ -61,7 +61,7 @@ int main()
     int v;
 
     scanf("%d", &n);
-    fastscan(&n);
+    fastscan(n);
     for (int i=0; i<n; i++) {
         //display(teque);
         //printf(" S: %lu\n",teque.size() );
