@@ -64,7 +64,7 @@ int main()
         printf("str: %s, %u\n",str,strlen(str));
         fastscan(v);
         //scanf("%s %d", str, &v);
-        printf("ADD %d, %lu\n",v,teque.size());
+        printf("ADD %d, %zu\n",v,teque.size());
         if (strcmp(str,"push_back")==0) {
             teque.push_back(v);
         } else if (strcmp(str,"push_front")==0) {
