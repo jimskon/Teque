@@ -45,7 +45,7 @@ void fastscan(int &number)
         number *= -1;
 }
 
-void faststring(char str[20])
+void faststring(char *str)
 {
   char c='x';
   int i=0;
