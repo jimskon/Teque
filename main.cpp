@@ -56,7 +56,6 @@ int main()
 
     //scanf("%d", &n);
     fastscan(n);
-    printf("Hey %d\n",n);
     for (int i=0; i<n; i++) {
         //display(teque);
         //printf(" S: %lu\n",teque.size());
