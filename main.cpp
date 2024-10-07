@@ -25,7 +25,7 @@ int main()
 
     scanf("%d", &n);
     for (int i=0; i<n; i++) {
-        //display(teque);
+        display(teque);
         //printf(" S: %lu, M: %d\n",teque.size(),*middle);
         scanf("%s %d", str, &v);
         //printf("ADD %d, %lu\n",v,teque.size());
