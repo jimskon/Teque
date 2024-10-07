@@ -10,7 +10,7 @@ void display(deque<int> l) {
 }
 
 void insert_middle(deque<int> teque, int n) {
-  auto it = numbers.begin();
+  auto it = teque.begin();
   advance(it, (teque.size()+1) / 2);
   teque.insert(it,n);
 }
