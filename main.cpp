@@ -59,9 +59,9 @@ int main()
     printf("Hey %d\n",n);
     for (int i=0; i<n; i++) {
         display(teque);
-        printf(" S: %lu\n",teque.size() );
+        printf(" S: %lu\n",teque.size());
         faststring(str);
-        printf("str: %s\n",str);
+        printf("str: %s, %u\n",str,strlen(str));
         fastscan(v);
         //scanf("%s %d", str, &v);
         printf("ADD %d, %lu\n",v,teque.size());
